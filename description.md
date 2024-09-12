@@ -1,27 +1,65 @@
 # IT326-project
 
-Project Description: This project aims to evaluate students' performance in Mathematics, English, and Brazilian using data mining techniques on the "Students Exam Scores" dataset from Kaggle.
-We will apply classification algorithms to categorize students into high, medium, or low performance levels and use K-means clustering to group students based on performance and personal attributes.
-The goal is to identify key factors affecting academic success and offer recommendations to enhance student outcomes
+Project Description: This dataset consists of three test results from students at a public school, as well as a number of personal and socioeconomic characteristics that may interact with them.
+
+ The dataset used in this project is "Students Exam Scores" from Kaggle.
+ 
+URL : https://www.kaggle.com/datasets/desalegngeb/students-exam-scores 
+
+Motivation and Goal : The purpose of this dataset is to use data mining algorithms such as classification and clustering to evaluate and understand the elements that influence students' test performance. We will apply classification algorithms to categorize students into high, medium, or low performance levels and use K-means clustering to group students based on performance and personal attributes.
 
 
 
-Dataset Description: The dataset used in this project is "Students Exam Scores" from Kaggle. The goal of this dataset is to apply data mining algorithms to analyze and understand the factors influencing students' exam performance. The attributes of this dataset are:
+General information : 
 
-- Gender: The gender of the student (male or female).
-- Age: The age of the student.
-- Family status: The student's family situation (e.g., living with parents or away).
-- Parental education level: The education level of the father and mother.
-- Parental work status: Whether the father or mother is employed.
-- Study time: The number of hours the student spends studying weekly.
-- Leisure time: The number of hours the student spends on recreational activities.
-- School absenteeism: The number of days the student was absent from school.
-- Final grades: The students' final grades in the three subjects (Mathematics, English, Brazilian).
-- The target feature is the final grades of students in each subject
+Number of attributes : 14 attributes
 
-This study is conducted by:
-Maryam Ahmed 443204628.
-,Raghad aldajani 443200551 
-, Nora Albyahi 443200479 
-, Rana Alharbi 442202346
-, Sadeem albargash 443200679.
+Number of Observations : more than 300,000 
+
+
+
+attributes Descriptions :
+
+1- Gender: The gender of the student (male or female).
+
+2- EthnicGroup: Ethnic group of the student (group A to E)
+
+3-ParentEduc: Parent(s) education background (from some_highschool to master's degree)
+
+4-LunchType: School lunch type (standard or free/reduced)
+
+5-TestPrep: Test preparation course followed (completed or none)
+
+6-ParentMaritalStatus: Parent(s) marital status (married/single/widowed/divorced)
+
+7-PracticeSport: How often the student parctice sport (never/sometimes/regularly)
+
+8-IsFirstChild: If the child is first child in the family or not (yes/no)
+
+9-NrSiblings: Number of siblings the student has (0 to 7)
+
+10- TransportMeans: Means of transport to school (schoolbus/private)
+
+11- WklyStudyHours: Weekly self-study hours(less that 5hrs; between 5 and 10hrs; more than 10hrs)
+
+12- MathScore: math test score(0-100)
+
+13- ReadingScore: reading test score(0-100)
+
+14- WritingScore: writing test score(0-100)
+
+-The Class label is the final grades of students in each subject (math, reading, and writing)
+
+
+
+
+
+        
+
+>This study is conducted by:
+
+Maryam Ahmed 443204628
+ _ Raghad aldajani 443200551 
+ _ Nora Albyahi 443200479 
+ _ Rana Alharbi 442202346
+ _ Sadeem albargash 443200679
